@@ -16,7 +16,6 @@ public class Test {
     public static void main(String[] args) {
         /************测试jdk动态代理*************/
         /*
-        原理
          jdk动态代理需要实现接口，通过重写接口里的方法实现增项
          */
         System.out.println("/************测试jdk动态代理*************/");
