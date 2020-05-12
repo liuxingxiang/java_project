@@ -21,9 +21,9 @@ public class Test {
         System.out.println("/************测试jdk动态代理*************/");
         JdkProxy jdkProxy = new JdkProxy();
         TargetService jdkProxyService = (TargetService)jdkProxy.creatProxy(new TargetServiceImpl());
-        String sayHello = jdkProxyService.sayHello("张三");
+        String sayHello = jdkProxyService.sayHello("张三-jdk动态代理");
         System.out.println("调用--sayHello返回值："+sayHello);
-        String sayGoodBye = jdkProxyService.sayGoodBye("李四");
+        String sayGoodBye = jdkProxyService.sayGoodBye("李四-jdk动态代理");
         System.out.println("调用--sayGoodBye返回值："+sayGoodBye);
 
 
@@ -32,17 +32,17 @@ public class Test {
         System.out.println("/************测试cglib动态代理*************/");
         CglibProxy cglibProxy = new CglibProxy();
         TargetService cglibProxyService = (TargetService)cglibProxy.creatProxy(TargetServiceImpl.class);
-        String sayHello1 = cglibProxyService.sayHello("张三");
+        String sayHello1 = cglibProxyService.sayHello("张三-cglib动态代理");
         System.out.println("调用--sayHello返回值："+sayHello1);
-        String sayGoodBye1 = cglibProxyService.sayGoodBye("李四");
+        String sayGoodBye1 = cglibProxyService.sayGoodBye("李四-cglib动态代理");
         System.out.println("调用--sayGoodBye返回值："+sayGoodBye1);
 
         /************测试代理模式-静态代理*************/
         System.out.println("/************测试代理模式-静态代理*************/");
         com.proxy.proxypattern.TargetService staticProxyService = new StaticProxy(new com.proxy.proxypattern.TargetServiceImpl());
-        String sayHello2 = staticProxyService.sayHello("张三");
+        String sayHello2 = staticProxyService.sayHello("张三-静态代理");
         System.out.println("调用--sayHello返回值："+sayHello2);
-        String sayGoodBye2 = staticProxyService.sayGoodBye("李四");
+        String sayGoodBye2 = staticProxyService.sayGoodBye("李四-静态代理");
         System.out.println("调用--sayGoodBye返回值："+sayGoodBye2);
     }
 }
