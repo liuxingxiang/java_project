@@ -20,6 +20,14 @@ public class TestFunction {
         }
     }
 
+    boolean test(Integer t) {
+        if ("liu666".equals(t)) {
+            return true;
+        } else{
+            return false;
+        }
+    }
+
     public static void main(String[] args) {
         // 	1，谓词：（Predicate）
         //		谓词是单参数的返回布尔值的函数式接口，输入一个参数，返回true或者false。
@@ -71,8 +79,6 @@ public class TestFunction {
         };
         consumer.accept("诸葛亮舌战群儒。。");
         testConsumer("煮酒论英雄。。",consumer);
-
-
     }
 
     private static <T> void testConsumer(T t,Consumer<T> consumer) {
