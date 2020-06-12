@@ -1,4 +1,4 @@
-package com.java8;
+package com.java.java8;
 
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;

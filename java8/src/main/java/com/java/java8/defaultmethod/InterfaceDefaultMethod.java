@@ -1,4 +1,4 @@
-package com.java8.defaultmethod;
+package com.java.java8.defaultmethod;
 
 /**
  * @Description 演示Java8新特性：接口默认方法

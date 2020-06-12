@@ -1,6 +1,6 @@
-package com.java8;
+package com.java.java8;
 
-import com.java8.entity.Student;
+import com.java.java8.entity.Student;
 
 import java.util.Optional;
 

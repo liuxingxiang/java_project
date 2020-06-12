@@ -1,4 +1,4 @@
-package com.java8.entity;
+package com.java.java8.entity;
 
 /**
  * @Description TODO

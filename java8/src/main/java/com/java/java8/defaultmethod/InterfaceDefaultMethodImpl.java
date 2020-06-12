@@ -1,4 +1,4 @@
-package com.java8.defaultmethod;
+package com.java.java8.defaultmethod;
 
 /**
  * @Description TODO

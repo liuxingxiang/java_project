@@ -1,4 +1,4 @@
-package com.java8.functionalInterface;
+package com.java.java8.functionalInterface;
 
 /**
  * @Description Java8新特性：函数式接口，为lambda表达式而设计

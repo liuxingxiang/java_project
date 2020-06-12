@@ -1,7 +1,4 @@
-package com.java8.defaultmethod;
-
-import com.java8.defaultmethod.InterfaceDefaultMethod;
-import com.java8.defaultmethod.InterfaceDefaultMethodImpl;
+package com.java.java8.defaultmethod;
 
 /**
  * @Description TODO
